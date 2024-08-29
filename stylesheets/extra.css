@@ -1,0 +1,14 @@
+.md-header {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset h1 {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+body {
+  background-image: url('path/to/your/background/image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
