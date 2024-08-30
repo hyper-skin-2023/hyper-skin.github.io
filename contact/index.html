@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#contact-us" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -376,6 +381,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -408,6 +415,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -422,9 +431,26 @@
                   
 
 
-  <h1>Contact</h1>
+<h1 id="contact-us">Contact Us</h1>
+<form action="https://formspree.io/f/{your_form_id}" method="POST" style="max-width: 600px; margin: 0 auto; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+  <div style="display: flex; flex-direction: column; gap: 15px;">
 
+    <!-- Full Name Input -->
+    <input type="text" name="name" placeholder="Full Name" required style="padding: 10px; font-size: 16px; border: 1px solid #B5C1C7; border-radius: 5px;">
 
+    <!-- Email Input -->
+    <input type="email" name="email" placeholder="Email Address" required style="padding: 10px; font-size: 16px; border: 1px solid #B5C1C7; border-radius: 5px;">
+
+    <!-- Subject Input -->
+    <input type="text" name="subject" placeholder="Subject" required style="padding: 10px; font-size: 16px; border: 1px solid #B5C1C7; border-radius: 5px;">
+
+    <!-- Message Input -->
+    <textarea name="message" placeholder="Enter your message" rows="5" required style="padding: 10px; font-size: 16px; border: 1px solid #B5C1C7; border-radius: 5px;"></textarea>
+
+    <!-- Submit Button -->
+    <button type="submit" style="padding: 12px; background-color: #336B64; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">Send</button>
+  </div>
+</form>
 
 
 
@@ -444,6 +470,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -471,7 +503,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "header.auto_hide"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.af256bd8.min.js"></script>
