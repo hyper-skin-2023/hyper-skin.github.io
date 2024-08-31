@@ -8,6 +8,10 @@ html {
     display: none;
 }
 
+.md-header {
+    display: none;
+}
+
 /* Hide the side navbar */
 .md-nav__list {
     display: none;
